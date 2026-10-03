@@ -4,7 +4,7 @@ exec > >(tee /var/log/user-data.log | logger -t startup-script -s 2>/dev/console
 echo "Starting startup script for CPU LightGBM benchmark node"
 
 apt-get update -y
-apt-get install -y python3 python3-pip
+apt-get install -y python3 python3-pip unzip
 
 # Debian 12 marks the system Python as externally managed (PEP 668);
 # --break-system-packages is required for a system-wide pip install here.
