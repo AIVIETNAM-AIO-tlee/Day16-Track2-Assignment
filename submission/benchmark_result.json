@@ -1,0 +1,28 @@
+{
+  "dataset_source": "creditcard.csv",
+  "total_samples": 284807,
+  "train_samples": 205060,
+  "val_samples": 22785,
+  "test_samples": 56962,
+  "metrics": {
+    "data_load_time_seconds": 2.9529,
+    "training_time_seconds": 1.9777,
+    "best_iteration": 1,
+    "auc_roc": 0.9267,
+    "accuracy": 0.9989,
+    "f1_score": 0.7382,
+    "precision": 0.637,
+    "recall": 0.8776,
+    "inference_latency_1_row_ms": 1.3909,
+    "inference_throughput_1000_rows_per_sec": 559602.89
+  },
+  "system_info": {
+    "os": "Linux",
+    "os_release": "6.1.0-53-cloud-amd64",
+    "cpu_architecture": "x86_64",
+    "cpu_count": 2,
+    "python_version": "3.11.2",
+    "lightgbm_version": "4.7.0"
+  },
+  "timestamp": "2026-10-03 17:36:19 UTC"
+}
